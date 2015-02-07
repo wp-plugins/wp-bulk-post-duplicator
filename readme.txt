@@ -4,7 +4,7 @@ Donate link: http://www.webhocks.com
 Tags: wordpress, duplicate posts, bulk duplicate, duplicate post by year
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 0.10
+Stable tag: 1.0
 License: GPLv2
 
 Plugin duplicates the posts all at once based on the post type,post status and even year(optional) of posts created.
