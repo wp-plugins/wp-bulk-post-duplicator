@@ -7,7 +7,7 @@ Tested up to: 4.1
 Stable tag: 0.10
 License: GPLv2
 
-This plugin used to duplicate the posts all at once based on the post type,post status and even year(optional) of posts created and also allows to select the status of posts being duplicated. 
+Plugin duplicates the posts all at once based on the post type,post status and even year(optional) of posts created.
 
 == Description ==
 
