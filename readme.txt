@@ -1,6 +1,5 @@
 === WP Bulk Post Duplicator ===
 Contributors: rajeshsantosh
-Donate link: http://www.webhocks.com
 Tags: wordpress, duplicate posts, bulk duplicate, duplicate post by year, bulk duplicate posts,huge posts duplicate, large posts duplicate, duplicate pages, bulk duplicate pages,duplicate bulk pages
 Requires at least: 3.0
 Tested up to: 4.1
