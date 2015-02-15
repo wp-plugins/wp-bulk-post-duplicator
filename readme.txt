@@ -3,7 +3,7 @@ Contributors: rajeshsantosh
 Tags: wordpress, duplicate posts, bulk duplicate, duplicate post by year, bulk duplicate posts,huge posts duplicate, large posts duplicate, duplicate pages, bulk duplicate pages,duplicate bulk pages
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2
 
 Plugin duplicates the posts,pages all at once based on the post type,post status and even year of posts created.
@@ -33,3 +33,9 @@ Go to wp-admin >> Settings >> WP Bulk Posts Duplicator and choose the custom pos
 == Screenshots ==
 
 1. Screenshot of main screen, choosing post-type and custom post-type to duplicate.
+
+
+== Changelog ==
+
+= 1.1 =
+* update on tagging categories of posts getting duplicated

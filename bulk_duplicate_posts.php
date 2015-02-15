@@ -3,7 +3,7 @@
  * Plugin Name: WP Bulk Post Duplicator.
  * Plugin URI: http://www.webhocks.com
  * Description: Duplicate all your post, page and custom post types.Duplicate based on year of post created.
- * Version: 1.0
+ * Version: 1.1
  * Author: Rajesh Kumar
  * Author URI: http://www.webhocks.com
  * License: GPL2
@@ -172,6 +172,11 @@ class WPPostsDuplicator {
 						} else {
 							$pt_status = $chn_status;
 						}
+						$pre_post_catgs=get_the_category( $post->ID);
+						$post_catgs=array();
+						foreach($pre_post_catgs as $catg) {
+							array_push($post_catgs, $catg->cat_ID);
+						}
 						
 						$args = array(
 							'comment_status' => $post->comment_status,
@@ -211,6 +216,7 @@ class WPPostsDuplicator {
 							$wpdb->query($sql_query);
 						}
 						
+						wp_set_post_categories( $new_post_id, $post_catgs, true);
 						$i_dupli++;
 						
 					}			
