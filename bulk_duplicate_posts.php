@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: WP Bulk Post Duplicator.
- * Plugin URI: http://www.webhocks.com
+ * Plugin URI: #
  * Description: Duplicate all your post, page and custom post types.Duplicate based on year of post created.
  * Version: 1.1
  * Author: Rajesh Kumar
- * Author URI: http://www.webhocks.com
+ * Author URI: #
  * License: GPL2
  */
  
