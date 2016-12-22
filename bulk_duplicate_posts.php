@@ -336,7 +336,7 @@ class WPPostsDuplicator {
 
 function wp_psd_admin_menu() {
   $wp_psd_plugin = new WPPostsDuplicator;
-  add_options_page('WP Bulk Posts Duplicator', 'WP Bulk Posts Duplicator', 9, 'wp-blk-posts-duplicator', array($wp_psd_plugin, 'available_post_types'));
+  add_options_page('WP Bulk Posts Duplicator', 'WP Bulk Posts Duplicator', 'manage_options', 'wp-blk-posts-duplicator', array($wp_psd_plugin, 'available_post_types'));
 }
 
 function init_psd() {
